@@ -39,7 +39,6 @@ parse(int argc, char *argv[]) {
                 .show_positional_help();
 
         options
-                .allow_unrecognised_options()
                 .add_options()
                         ("m, max", "maximum value of the number", cxxopts::value<long>())
                         ("t, thread", "number of threads", cxxopts::value<int>())
@@ -51,6 +50,11 @@ parse(int argc, char *argv[]) {
         auto result = options.parse(argc, argv);
 
         if (result.count("help")) {
+            std::cout << options.help({""}) << std::endl;
+            exit(0);
+        }
+
+        if (result.count("max") == 0 || result.count("thread") == 0) {
             std::cout << options.help({""}) << std::endl;
             exit(0);
         }
