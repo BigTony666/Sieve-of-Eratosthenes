@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bigtony/school-resources/Northeastern University/High-Performance-Computing/homework/HW2/sieve-of-eratosthenes/cxxopts.hpp
+cstring
+-
+cctype
+-
+exception
+-
+iostream
+-
+map
+-
+memory
+-
+regex
+-
+sstream
+-
+string
+-
+unordered_map
+-
+unordered_set
+-
+vector
+-
+optional
+-
+unicode/unistr.h
+-
+
+/Users/bigtony/school-resources/Northeastern University/High-Performance-Computing/homework/HW2/sieve-of-eratosthenes/main.cpp
+pthread.h
+-
+semaphore.h
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+math.h
+-
+vector
+-
+cxxopts.hpp
+/Users/bigtony/school-resources/Northeastern University/High-Performance-Computing/homework/HW2/sieve-of-eratosthenes/cxxopts.hpp
+
