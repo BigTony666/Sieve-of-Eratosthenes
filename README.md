@@ -1,6 +1,12 @@
-# Prime Sieve
+<h1 align="center">
+    <p>Prime Sieve</p>
+    <img src="https://img.icons8.com/cotton/64/000000/cloud-binary-code.png"
+    style="width: auto; height: auto; max-width: 100%; max-height: 100%">
+</h1>
 
-An implementation of parallel prime sieve using Sieve-of-Eratosthenes algorithm with pthreads
+<div align="center">
+  <p>An implementation of parallel prime sieve using Sieve-of-Eratosthenes algorithm with pthreads.</p>
+</div>
 
 ## Implementation
 
@@ -66,3 +72,5 @@ This program has some places that can improve and optimize:
 ## Reference
 
 [Parallel Prime Sieve](http://www.massey.ac.nz/~mjjohnso/notes/59735/seminars/01077635.pdf)
+
+ <a href="https://icons8.com/icon/91875/cloud-binary-code" style="display:none;">Cloud Binary Code icon by Icons8</a>
