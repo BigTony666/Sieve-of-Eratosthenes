@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(philosophers_dinning)
+project(sieve_of_eratosthenes)
 
 set(CMAKE_CXX_STANDARD 11)
 add_definitions(-std=c++11)
