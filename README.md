@@ -8,6 +8,11 @@
   <p>An implementation of parallel prime sieve using Sieve-of-Eratosthenes algorithm with pthreads.</p>
 </div>
 
+- [Implementation](#implementation)
+- [How to run](#how-to-run)
+- [Improvements](#improvements)
+- [Reference](#reference)
+
 ## Implementation
 
 Prime sieve is an attractive research field, since prime numbers are largely used in encryption/decryption
@@ -19,10 +24,18 @@ part will be handled by one thread.
  
 ## How to run
 
+Make sure the system has a `cmake` with a 2.8 or higher version, `gcc` with a 4.8 or higher version.
+
+Run the cmake to generate makefile:
+
+```sh
+$ cmake .
+```
+
 Makefile has been created, just run `make` command in terminal:
 
 ```sh
-make
+$ make
 ```
 
 An executable program called `sieve_of_eratosthenes` is generated.
